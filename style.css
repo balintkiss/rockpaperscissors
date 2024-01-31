@@ -1,0 +1,25 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.text {
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.text span {
+    display: inline-block;
+    background-image: url('wallhaven-eyoj58.jpg'); /* replace with your image path */
+    background-size: cover;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-position: center;
+    margin: 0 2px;
+}
